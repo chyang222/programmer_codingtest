@@ -12,3 +12,4 @@ def solution(cards1, cards2, goal):
 cards1 = ["i", "drink", "water"]	
 cards2 = ["want", "to"]
 goal = ["i", "want", "to", "drink", "water"]
+
