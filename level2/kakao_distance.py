@@ -33,6 +33,7 @@ def bfs(p):
                     
                     if p[ny][nx] == 'P' and distance[y][x] <= 1:
                         return 0
+    
     return 1
 
 
