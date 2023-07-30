@@ -24,11 +24,12 @@ def bfs(p):
                 nx = x + dx[i]
                 ny = y + dy[i]
 
+
                 if 0<=nx<5 and 0<=ny<5 and visited[ny][nx] == 0:
                     
                     if p[ny][nx] == 'O':
                         queue.append([ny, nx])
-                        visited[ny][nx] = 1
+                        visited[ny][nx] = 1 
                         distance[ny][nx] = distance[y][x] + 1
                     
                     if p[ny][nx] == 'P' and distance[y][x] <= 1:
