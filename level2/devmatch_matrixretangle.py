@@ -27,7 +27,6 @@ def rotate(x1,y1, x2, y2, matrix):
     return min_value
 
 
-
 def solution(rows, columns, queries):
     matrix = [[(i) * columns + (j + 1) for j in range(columns)] for i in range(rows)]
     result = []
